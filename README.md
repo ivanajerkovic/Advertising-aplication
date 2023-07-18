@@ -1,2 +1,2 @@
 # adv
- project
+ final project for JavaScript course
