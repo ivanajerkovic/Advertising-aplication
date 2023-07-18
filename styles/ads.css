@@ -21,10 +21,9 @@
 .main {
     position: relative;
 }
-.buttons {
-    position: absolute;
-    right: 20px;
-    top: 245px;
+.filter .buttons {
+    flex-direction: row;
+    justify-content: flex-end;
 }
 #btn-admin {
     display: none;
@@ -45,6 +44,7 @@
         flex-direction: row;
     }
     .filter .buttons {
+        position: absolute;
         flex-direction: row;
         right: 30px;
         top: 132px;
