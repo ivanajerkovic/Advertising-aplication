@@ -1,0 +1,428 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Pera",
+      "lastName": "Peric",
+      "username": "PeraPeric1",
+      "password": "123",
+      "address": "Prvomajska 1",
+      "phoneNumber": "+38166554433",
+      "gender": "M",
+      "admin": false
+    },
+    {
+      "id": 2,
+      "firstName": "Mika",
+      "lastName": "Mikic",
+      "username": "MikaMikic2",
+      "password": "234",
+      "address": "Zetska 2",
+      "phoneNumber": "+38165443322",
+      "gender": "M",
+      "admin": false
+    },
+    {
+      "id": 3,
+      "firstName": "Zika",
+      "lastName": "Zikic",
+      "username": "ZikaZikic3",
+      "password": "345",
+      "address": "Skopska 3",
+      "phoneNumber": "+38163221100",
+      "gender": "M",
+      "admin": false
+    },
+    {
+      "id": 4,
+      "firstName": "Laza",
+      "lastName": "Lazic",
+      "username": "LazaLazic4",
+      "password": "456",
+      "address": "Beogradska 4",
+      "phoneNumber": "+38160112233",
+      "gender": "M",
+      "admin": true
+    },
+    {
+      "id": 5,
+      "firstName": "Ana",
+      "lastName": "Anic",
+      "username": "AnaAnic5",
+      "password": "567",
+      "address": "Niska 5",
+      "phoneNumber": "+38166778899",
+      "gender": "F",
+      "admin": false
+    },
+    {
+      "id": 6,
+      "firstName": "Marija",
+      "lastName": "Markovic",
+      "username": "MarijaMarkovic6",
+      "password": "678",
+      "address": "Jugoviceva 6",
+      "phoneNumber": "+38160445566",
+      "gender": "F",
+      "admin": false
+    },
+    {
+      "firstName": "Ivana",
+      "lastName": "Jerković",
+      "username": "IvanaJerkovic",
+      "password": "123456",
+      "address": "Jug Bogdanova 29",
+      "phoneNumber": "0642253952",
+      "gender": "F",
+      "admin": true,
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "name": "Real Estate",
+      "image": "https://www.build-review.com/wp-content/uploads/2020/07/luxury-real-estate.jpg",
+      "id": 1
+    },
+    {
+      "name": "Jobs",
+      "image": "https://media.istockphoto.com/photos/jobs-picture-id469381096",
+      "id": 2
+    },
+    {
+      "name": "Cars",
+      "image": "https://9to5carwallpapers.com/wp-content/uploads/2013/04/Honda-Cars-Concept-Hd-Wallpapers.jpg",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Home Appliances",
+      "image": "http://www.lowcarbonbuildings.org.uk/wp-content/uploads/2018/05/home-appliances.jpg"
+    },
+    {
+      "name": "Furniture",
+      "image": "https://2.bp.blogspot.com/-1-loiqzulzI/UMIZ30GXZ-I/AAAAAAAAbJ4/88RkPar7G0k/s1600/Beautiful+modern+sofa+furniture+designs..jpg",
+      "id": 5
+    }
+  ],
+  "ads": [
+    {
+      "id": 1,
+      "title": "House for sale",
+      "description": "Location - Belgrade, 200m2 ",
+      "price": "400000",
+      "image": "http://i.huffpost.com/gen/779445/images/o-HOMES-FOR-SALE-BY-PRICE-facebook.jpg",
+      "categoryId": 1,
+      "userId": 2
+    },
+    {
+      "title": "Apartment for rent",
+      "description": "Center of Belgrade, 40m2",
+      "price": "300",
+      "image": "https://d1bvpoagx8hqbg.cloudfront.net/originals/bright-1-bedroom-apartment-rent-riga-center-b24975c54975c16e0540c5d3359d7be0.jpg",
+      "categoryId": 1,
+      "userId": 3,
+      "id": 2
+    },
+    {
+      "title": "Car for sale",
+      "description": "BMW ",
+      "price": "2000",
+      "image": "https://bringatrailer.com/wp-content/uploads/2019/03/2000_bmw_m5_1553308599ef66e7dff9f98764daDSC_4548.jpg",
+      "categoryId": 3,
+      "userId": 4,
+      "id": 3
+    },
+    {
+      "title": "Apartment for sale",
+      "description": "luxury, Novi Sad, 75 m2",
+      "price": "150000",
+      "image": "https://gtspirit.com/wp-content/uploads/2015/09/New-York-apartment-for-sale1.jpg",
+      "categoryId": 1,
+      "userId": 3,
+      "id": 4
+    },
+    {
+      "title": "Junior Frontend Developer",
+      "description": "It company hiring...",
+      "price": "900",
+      "image": "https://www.roberthalf.com/sites/default/files/2018-04/front-end-web-developer-salary-tcg-2018.jpg",
+      "categoryId": 2,
+      "userId": 6,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "title": "Table and chairs",
+      "description": "used restaurant table with four chairs",
+      "price": "300",
+      "image": "https://sc01.alicdn.com/kf/HTB1diczJpXXXXcHXXXXq6xXFXXXB/220213469/HTB1diczJpXXXXcHXXXXq6xXFXXXB.jpg",
+      "categoryId": 5,
+      "userId": 1
+    },
+    {
+      "id": 7,
+      "title": "Refrigirator for sale",
+      "description": "Retro refrigirator",
+      "price": "50",
+      "image": "https://www.payyattention.com/wp-content/uploads/2018/07/retro-refrigerator-for-sale-philippines.jpg",
+      "categoryId": 4,
+      "userId": 5
+    },
+    {
+      "title": "Sofa",
+      "description": "white sofa",
+      "price": "100",
+      "image": "http://3.bp.blogspot.com/-HVO6xIt-Xlc/UABeHgj-KNI/AAAAAAAABeM/4hJMnSK0oV8/s1600/Fathers-day--furniture-sale-natuzzi%2B-%2BCopy.JPG",
+      "categoryId": 5,
+      "userId": 3,
+      "id": 8
+    },
+    {
+      "title": "Renult Clio Grandtour",
+      "description": "exellent, 2018, 0.9tce, 90hp, 120.000km ",
+      "price": "8500",
+      "image": "https://th.bing.com/th/id/R.e5fd4bab53c923ebf9517aaf6ba35786?rik=EW%2bIZn1VwMmr1w&pid=ImgRaw&r=0",
+      "categoryId": 3,
+      "userId": "7",
+      "id": 9
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "text": "Kako mozemo stupiti u kontakt?",
+      "adId": 1,
+      "userId": 3
+    },
+    {
+      "id": 2,
+      "text": "Pozovite na broj...",
+      "adId": 1,
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "text": "Da li je moguca korekcija cene?",
+      "adId": 2,
+      "userId": 4
+    },
+    {
+      "id": 4,
+      "text": "Zanima me...",
+      "adId": 8,
+      "userId": 5
+    },
+    {
+      "id": 5,
+      "text": "Lepo",
+      "adId": 4,
+      "userId": 7
+    },
+    {
+      "id": 6,
+      "text": "...",
+      "adId": 5,
+      "userId": 1
+    },
+    {
+      "id": 7,
+      "text": "...",
+      "adId": 6,
+      "userId": 3
+    },
+    {
+      "id": 8,
+      "text": "...",
+      "adId": 7,
+      "userId": 4
+    },
+    {
+      "id": 9,
+      "text": "...",
+      "adId": 8,
+      "userId": 2
+    },
+    {
+      "id": 10,
+      "text": "...",
+      "adId": 9,
+      "userId": 4
+    },
+    {
+      "id": 11,
+      "text": "I mene zanima",
+      "adId": 8,
+      "userId": 6
+    },
+    {
+      "id": 12,
+      "text": "...",
+      "adId": 7,
+      "userId": 2
+    },
+    {
+      "id": 13,
+      "text": "...",
+      "adId": 6,
+      "userId": 6
+    }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "adId": 1,
+      "userId": 3
+    },
+    {
+      "id": 2,
+      "adId": 1,
+      "userId": 4
+    },
+    {
+      "id": 3,
+      "adId": 1,
+      "userId": 5
+    },
+    {
+      "id": 4,
+      "adId": 1,
+      "userId": 6
+    },
+    {
+      "id": 5,
+      "adId": 2,
+      "userId": 3
+    },
+    {
+      "id": 6,
+      "adId": 2,
+      "userId": 1
+    },
+    {
+      "id": 7,
+      "adId": 2,
+      "userId": 2
+    },
+    {
+      "id": 8,
+      "adId": 2,
+      "userId": 7
+    },
+    {
+      "id": 9,
+      "adId": 3,
+      "userId": 1
+    },
+    {
+      "id": 10,
+      "adId": 3,
+      "userId": 2
+    },
+    {
+      "id": 11,
+      "adId": 3,
+      "userId": 3
+    },
+    {
+      "id": 12,
+      "adId": 3,
+      "userId": 4
+    },
+    {
+      "id": 13,
+      "adId": 3,
+      "userId": 5
+    },
+    {
+      "id": 14,
+      "adId": 3,
+      "userId": 6
+    },
+    {
+      "id": 15,
+      "adId": 3,
+      "userId": 7
+    },
+    {
+      "id": 16,
+      "adId": 4,
+      "userId": 1
+    },
+    {
+      "id": 17,
+      "adId": 4,
+      "userId": 2
+    },
+    {
+      "id": 18,
+      "adId": 4,
+      "userId": 3
+    },
+    {
+      "id": 19,
+      "adId": 4,
+      "userId": 7
+    },
+    {
+      "id": 20,
+      "adId": 5,
+      "userId": 1
+    },
+    {
+      "id": 21,
+      "adId": 5,
+      "userId": 2
+    },
+    {
+      "id": 22,
+      "adId": 5,
+      "userId": 3
+    },
+    {
+      "id": 23,
+      "adId": 5,
+      "userId": 4
+    },
+    {
+      "id": 24,
+      "adId": 5,
+      "userId": 6
+    },
+    {
+      "id": 25,
+      "adId": 5,
+      "userId": 7
+    },
+    {
+      "id": 26,
+      "adId": 6,
+      "userId": 1
+    },
+    {
+      "id": 27,
+      "adId": 6,
+      "userId": 3  
+    },
+    {
+      "id": 28,
+      "adId": 7,
+      "userId": 4
+    },
+    {
+      "id": 29,
+      "adId": 7,
+      "userId": 5
+    },
+    {
+      "id": 30,
+      "adId": 7,
+      "userId": 6
+    },
+    {
+      "id": 31,
+      "adId": 8,
+      "userId": 1
+    }
+  ]
+}
