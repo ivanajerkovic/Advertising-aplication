@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="/styles/css-reset.css">
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/register.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="header">
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="/images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="/pages/register.html">Registration</a>
+                    </li>
+                    <li>
+                        <a href="/pages/login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <section>
+                <div class="title">Registration</div>
+                <div class="form">
+                    <div class="input-wrapper">
+                        <input id="first-name-input" class="input-form" type="text" required>
+                        <label for="">First name</label>
+                    </div>
+                    <div class="input-wrapper">
+                        <input id="last-name-input" class="input-form" type="text" required>
+                        <label for="">Last name</label>
+                    </div>
+                    <div class="input-wrapper">
+                        <input id="address-input" class="input-form" type="text" required>
+                        <label for="">Address</label>
+                    </div>
+                    <div class="input-wrapper">
+                        <input id="phone-input" class="input-form" type="text" required>
+                        <label for="">Phone number</label>
+                    </div>
+                    <div class="input-wrapper">
+                        <input id="username-input"  class="input-form" type="text" required>
+                        <label for="">Username</label>
+                    </div>
+                    <div class="input-wrapper">
+                        <input id="password-input"  class="input-form" type="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="input-wrapper">
+                        <input id="confirm-password-input" class="input-form" type="password" required>
+                        <label for="">Confirm password</label>
+                    </div>
+                    <div>Choose gender:
+                        <input id="male" type="radio" name="gender" value="M">
+                        <label for="male">male</label>
+                        <input id="female" type="radio" name="gender" value="F">
+                        <label for="female">female</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="admin-input">Admin
+                    </div>
+                    <button id="btn-register">Register</button>
+                    <div class="message"></div>
+                    
+                </div>
+            </section>
+        </div>   
+    </div>
+    <script src="https://kit.fontawesome.com/3ef4d2adf4.js" crossorigin="anonymous"></script>
+    <script src="/js/register.js" type="module"></script>
+</body>
+</html>

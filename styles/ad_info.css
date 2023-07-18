@@ -1,0 +1,118 @@
+.main {
+    position: relative;
+}
+section:first-child {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.div-ad {
+    padding: 40px 10px 10px;
+}
+#div-likes {
+    position: absolute;
+    top: 10px;
+    right: 10px ;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+#div-likes i {
+    transition: all 0.3s ease-in-out;
+}
+#div-likes i:hover {
+    scale: 1.1;
+}
+#div-likes i:active {
+    scale: 1.2;
+}
+#div-comments {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, .8);
+    gap: 10px;
+    padding: 10px 10px 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+}
+.subtitle {
+    color: rgb(20, 30, 48);
+    font-weight: bold;
+}
+#comments {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+    color: rgb(20, 30, 48);
+}
+.comment, #new-comment {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 2px 4px;
+}
+.comment {
+    box-shadow: 0 0 1px rgba(20, 30, 48, .5);
+}
+.comment div:first-child {
+    color: black;
+}
+#new-comment {
+    position: relative;
+}
+#post-comment {
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 0;
+}
+textarea {
+    background-color: rgba(255, 255, 255, .5);
+    width: -webkit-fill-available;
+}
+.message-delete {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) {
+    #div-likes {
+        font-size: 1.2rem;
+    }
+    .comment, #new-comment {
+        flex-direction: row;
+    }
+ }
+ 
+  /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) {
+    .div-ad:hover {
+        scale: initial;
+        background-color: rgba(255, 255, 255, .8);
+    }
+    section:nth-child(2) {
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+    }
+    #div-comments {
+        font-size: 0.9em;
+    }
+ }
+ 
+  /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) {
+    section:nth-child(2) {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 50px;
+        justify-items: center;
+    }
+ }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,82 @@
+.filter>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+.div-filter>div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.div-inputs {
+    display: flex;
+    gap: 2px;
+}
+.div-user {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.main {
+    position: relative;
+}
+.buttons {
+    position: absolute;
+    right: 20px;
+    top: 245px;
+}
+#btn-admin {
+    display: none;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #btn-admin {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+    .div-filter>div {
+        flex-direction: row;
+        align-items: center;
+    }
+    .filter .div-sort {
+        display: flex;
+        flex-direction: row;
+    }
+    .filter .buttons {
+        flex-direction: row;
+        right: 30px;
+        top: 132px;
+    }
+}
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .filter .div-filter {
+        flex-direction: row;
+    }
+    .filter .buttons {
+        right: 40px;
+        top: 105px;
+    }
+    #btn-admin {
+        right: 40px;
+    }
+} 
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .filter .buttons, #btn-admin  {
+        right: 50px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .header, .main {
+        padding: 0 60px;
+    }
+    .filter .buttons, #btn-admin  {
+        right: 60px;
+    }
+}

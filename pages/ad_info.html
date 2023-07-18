@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/css-reset.css">
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/ad_info.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="header">
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="/images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="/index.html">Log out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <section>
+                <div class="title">Ad info</div>
+                <button class="btn-delete">Delete this ad</button>
+                <div class="message-delete">Are you sure you want to delete this ad?
+                    <div class="buttons">
+                        <button id="btn-yes">Yes</button>
+                        <button id="btn-no">No</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="div-ad">
+                    <div id="div-likes">
+                        <i id="like-ikon" class="fa-thumbs-up"></i>
+                    </div>
+                </div>
+                <div id="div-comments">
+                    <div class="subtitle">Comments:</div>
+                    <div id="comments">
+                    </div>
+                    <div id="new-comment">
+                        <label for="input-comment">Comment:</label>
+                        <textarea id="input-comment"></textarea>
+                        <button id="post-comment">Post</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/3ef4d2adf4.js" crossorigin="anonymous"></script>
+    <script type="module" src="/js/ad_info.js"></script>
+</body>
+</html>

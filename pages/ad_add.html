@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/css-reset.css">
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/ad_add_edit.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="header">
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="/images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="menu">
+                
+            </div>
+        </div>
+        <div class="main">
+            <section>
+                <div class="title">Add new ad</div>
+            </section>
+            <section>
+                <div id="" class="form">
+                    <div class="input-wrapper">
+                        <select name="" id="select-categories" class="input-form" required> 
+                            <option value="" selected disabled hidden></option>
+                        </select>
+                        <label for="select-categories">Select category:</label>
+                    </div>
+                    <div class="input-wrapper">
+                        <input id="ad-title" class="input-form" type="text" required>
+                        <label for="ad-title">Ad title:</label>                        
+                    </div>
+                    <div class="input-wrapper">
+                        <textarea id="ad-description" class="input-form" required></textarea>
+                        <label for="ad-description">Ad description:</label>                        
+                    </div>
+                    <div class="input-wrapper">
+                        <input id="ad-price" class="input-form" type="text" required>
+                        <label for="ad-price">Price (EUR):</label>                        
+                    </div>
+                    <div class="input-wrapper">
+                        <textarea id="ad-image" class="input-form" required></textarea>
+                        <label for="ad-image">Image link:</label>                        
+                    </div>
+                    <div class="buttons">
+                        <button id="btn-add">Add</button>
+                        <button id="btn-discard">Discard</button>
+                    </div>
+                    <div class="message"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script type="module" src="/js/ad_add.js"></script>
+</body>
+</html>

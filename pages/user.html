@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/css-reset.css">
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/user.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="header">
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="/images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li id="link-ad-add">
+                        Add new ad
+                    </li>
+                    <li id="link-all-ads">
+                        View all ads
+                    </li>
+                    <li>
+                        <a href="/index.html">Log out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <section>
+                <div class="title"></div>
+                <button id="btn-admin">Admin's page</button>
+            </section>
+            <section>
+                <div id="user-info" class="form">
+                    <div class="subtitle">User info</div>
+                    <!-- <div class="input-wrapper">
+                        <input id="first-name-input" class="input-form" type="text" readonly required>
+                        <label for="">First name:</label>                        
+                    </div> -->
+                    <!-- <div class="input-wrapper">
+                        <input id="last-name-input" class="input-form" type="text" readonly required>
+                        <label for="">Last name:</label>                        
+                    </div> -->
+                    <div class="input-wrapper">
+                        <input id="address-input" class="input-form" type="text" readonly required>
+                        <label for="">Address:</label>                        
+                    </div>
+                    <div class="input-wrapper">
+                        <input id="phone-input" class="input-form" type="text" readonly required>
+                        <label for="">Phone number:</label>                        
+                    </div>
+                    <div class="input-wrapper">
+                        <input id="username-input"  class="input-form" type="text" readonly required>
+                        <label for="">Username:</label>                        
+                    </div>
+                    <div class="input-wrapper">
+                        <input id="password-input"  class="input-form" type="text" readonly required>
+                        <label for="">Password:</label>                        
+                    </div>
+                    <div class="input-wrapper">
+                        <input id="gender-input" class="input-form" type="text" readonly required>
+                        <label for="">Gender:</label>                        
+                    </div>
+                </div>
+            </section>
+            <section id="ads">
+                <div class="subtitle">Your ads
+                </div>
+                <div class="filter">
+                    <div>
+                        <div>
+                            <label for="select-categories">Filter ads by category:</label>
+                            <select name="" id="select-categories">
+                                <option value="All categories">All categories</option>
+                            </select>
+                        </div>
+                        <button id="btn-filter">filter</button>
+                    </div>
+                    <div id="mesage-filter"></div>
+                </div>
+                <div id="user-ads" class="ads-container">
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/3ef4d2adf4.js" crossorigin="anonymous"></script>
+    <script type="module" src="/js/user.js"></script>
+</body>
+</html>

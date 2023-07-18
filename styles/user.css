@@ -1,0 +1,53 @@
+.div-ad {
+    padding-bottom: 10px;
+}
+.delete-edit-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.btn-link-delete {
+    z-index: 1;
+}
+.message-delete {
+    top: 36px;
+    width: calc(100% - 20px);
+    height: calc(100% - 36px);
+}
+select {
+    border: 1px solid #03e9f4;
+}
+select option:hover {
+    background-color: #03e9f4;
+}
+/* #filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#filter>div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+} */
+.input-form ~ label {
+    top: -20px;
+    color: #03e9f4;
+    font-size: 12px;
+}
+#btn-admin {
+    display: none;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .main {
+        position: relative;
+    }
+    #btn-admin {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+}

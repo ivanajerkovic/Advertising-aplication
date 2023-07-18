@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/css-reset.css">
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/category_add_edit.css">
+</head>
+<body><div class="page-container">
+    <div class="header">
+        <div class="logo">
+            <a href="/index.html">
+                <img src="/images/logo.png" alt="">
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="/index.html">Log out</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <section>
+            <div class="title">Add new category</div>
+        </section>
+        <section>
+            <div id="" class="form">
+                <div class="input-wrapper">
+                    <input id="category-name-input" class="input-form" type="text" required>
+                    <label for="">Category name:</label>
+                </div>
+                <div class="input-wrapper">
+                    <input id="image-input" class="input-form" type="text" required>
+                    <label for="">Image link:</label>
+                </div>
+                <div class="buttons">
+                    <button id="btn-add-category">Add</button>
+                    <button id="btn-discard">Discard</button>
+                </div>
+                <div class="message"></div>
+            </div>
+        </section>
+    </div>
+</div>
+    <script type="module" src="/js/category_add.js"></script>
+</body>
+</html>

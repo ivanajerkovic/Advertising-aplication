@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/css-reset.css">
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/ads.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="header">
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="/images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li id="user-link">
+                        Your ads
+                    </li>
+                    <li>
+                        <a href="/index.html">Log out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <section>
+                <div class="title">All ads</div>
+                <button id="btn-admin">Admin's page</button>
+            </section>
+            <section>
+                <div class="filter">
+                    <div class="div-filter">
+                        <div>
+                            <label for="select-categories">Filter ads by category:</label>
+                            <select name="" id="select-categories">
+                                <option value="All categories">All categories</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>
+                                Set price range (EUR):
+                            </label>
+                            <div class="div-inputs">
+                                <div class="div-input">
+                                    <label for="min-price">min</label>
+                                    <input id="min-price" type="number">
+                                </div>
+                                <div class="div-input">
+                                    <label for="max-price">max</label>
+                                    <input id="max-price" type="number">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-sort">
+                        <div>
+                            <label for="select-atributes">Sort ads by:</label>
+                            <select name="" id="select-atributes">
+                                <option value="" selected disabled hidden ></option>
+                                <option value="price">price</option>
+                                <option value="title">title</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="">and direction:</label>
+                            <select name="" id="select-direction">
+                                <option value="" selected disabled hidden ></option>
+                                <option value="ASC">ascending</option>
+                                <option value="DESC">descending</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button id="btn-filter">filter</button>
+                        <button id="btn-reset">reset</button>
+                    </div>
+                    <div id="message-filter"></div>
+                </div>
+                <div id="ads" class="ads-container">
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/3ef4d2adf4.js" crossorigin="anonymous"></script>
+    <script type="module" src="/js/ads.js"></script>
+</body>
+</html>
