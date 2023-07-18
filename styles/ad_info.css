@@ -1,10 +1,6 @@
 .main {
     position: relative;
 }
-section:first-child {
-    flex-direction: row;
-    justify-content: space-between;
-}
 .div-ad {
     padding: 40px 10px 10px;
 }
@@ -78,6 +74,10 @@ textarea {
 }
  /* Small devices (landscape phones, 576px and up) */
  @media (min-width: 576px) {
+    #ad-title {
+        flex-direction: row;
+        justify-content: space-between;
+    }
     #div-likes {
         font-size: 1.2rem;
     }
@@ -92,8 +92,9 @@ textarea {
         scale: initial;
         background-color: rgba(255, 255, 255, .8);
     }
-    section:nth-child(2) {
-        flex-direction: row;
+    #ad-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         align-items: stretch;
         justify-content: center;
     }
@@ -104,9 +105,8 @@ textarea {
  
   /* Large devices (desktops, 992px and up) */
  @media (min-width: 992px) {
-    section:nth-child(2) {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
+    #ad-info {
+        grid-template-columns: 3fr 2fr;
         gap: 50px;
         justify-items: center;
     }

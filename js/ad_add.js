@@ -23,6 +23,8 @@ async function loadData() {
     btnDiscard.addEventListener('click', function () {
         window.history.back()
     })
+    
+    document.querySelector('.back-page').addEventListener('click', () => window.history.back())
 }
 window.addEventListener('load', loadData)
 

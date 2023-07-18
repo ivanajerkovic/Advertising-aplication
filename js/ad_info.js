@@ -50,6 +50,7 @@ async function loadData() {
         })
     })
 
+    document.querySelector('.back-page').addEventListener('click', () => window.history.back())
 }
 window.addEventListener('load', loadData)
 
